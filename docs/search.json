@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Course Description\nThis course provides a practical and theoretical introduction to the field of Data Science. Students will learn the foundations of data acquisition, processing, statistical modeling, machine learning, and data visualization. The course emphasizes hands-on experience using R/Quarto and real-world datasets to prepare students for careers in analytics and data-driven decision making.",
+    "crumbs": [
+      "Course Description"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Data Science",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nUpon completing this course, students will gain proficiency in:\n\nFoundations of Data Science, Business Analytics, and Statistical Learning\nData Management\nMachine Learning Techniques\nData Visualization\nSupervised and Unsupervised Methods\n\nAdditionally, students will develop the following competencies:\n\nCritical Thinking: Ability to analyse and evaluate information critically.\nTeamwork and Communication: Skills for collaboration and communication in a team setting.\nApplication Readiness: Practical application of data science techniques to real-world scenarios.",
+    "crumbs": [
+      "Course Description"
+    ]
+  },
+  {
+    "objectID": "courseinfo.html",
+    "href": "courseinfo.html",
+    "title": "1  Content",
+    "section": "",
+    "text": "Part I: Introduction to Data Science\n\nOverview of Descriptive, Prescriptive, and Predictive Analytics\nReview of R Programming: Basic concepts, functions, and applications\nData Structures: Qualitative, Quantitative, Time Series, Panel, Cross-sectional\nDealing with Text\n\n\n\nPart II: Data Acquisition, Cleaning, and Exploratory Data Analysis\n\nData Mining Techniques\n\nWeb-scraping Fundamentals\nRetrieving Data\n\nData Cleaning\nSummarizing data\nData Visualization Methods\n\n\n\nPart III: Supervised Learning\n\nRegression\n\nRidge and Lasso Regression\nRegression Trees\n\nClassification\n\nLogit\nDecision Trees\n\nResampling\n\nCross-Validation\nBootstrapping\nEnsemble Methods\n\n\n\n\nPart IV: Unsupervised Learning\n\nPrincipal Component Analysis (PCA)\nClustering",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "2  Schedule",
+    "section": "",
+    "text": "Figure 2.1: Schedule Lectures\n\n\n\n\n\n\n\n\n\n\n\nFigure 2.2: Schedule Tutorials",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "3  Assessment",
+    "section": "",
+    "text": "Final exam (80%)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "assessment.html#final-exam-80",
+    "href": "assessment.html#final-exam-80",
+    "title": "3  Assessment",
+    "section": "",
+    "text": "Oral exam\n20-30 min\nEntire content of the lecture & lab sessions are relevant!\nQuestions related to your own Data Science study",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "assessment.html#take-home-examination-20",
+    "href": "assessment.html#take-home-examination-20",
+    "title": "3  Assessment",
+    "section": "Take home examination (20%)",
+    "text": "Take home examination (20%)\n\nOne extended Data Science study (prepared in Quarto)\nTopic: assigned by the instructor or proposed by the student (subject to prior consultation and approval)\nSubmission deadline: one week before the oral examination",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "ai_policy.html",
+    "href": "ai_policy.html",
+    "title": "4  AI Policy",
+    "section": "",
+    "text": "Zeppelin Unversity’s AI Policy\nAI creates major opportunities for education, but it also introduces substantial pedagogical, ethical, and institutional risks. The key question is not simply whether AI should be used, but for which learning activities, under what conditions, and with what safeguards.\nThe Teaching Agreement not only clarifies the requirements for the exam but also specifies whether the use of AI as an aid is permitted. According to §14 ASPO: “The use of artificial intelligence (AI) as an aid in written assignments is generally permitted, unless the examiner prohibits it; this will be announced via the intranet or by the examiner.” If the use of AI as an aid in written assignments is prohibited, but the use of AI can be proven beyond a reasonable doubt, this constitutes deception and must be treated as plagiarism in accordance with §14 ASPO.\nSee information on ZUniverse in German, translated with DeepL.com)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AI Policy</span>"
+    ]
+  },
+  {
+    "objectID": "ai_policy.html#use-of-ai-for-your-data-science-project",
+    "href": "ai_policy.html#use-of-ai-for-your-data-science-project",
+    "title": "4  AI Policy",
+    "section": "Use of AI for your Data Science Project",
+    "text": "Use of AI for your Data Science Project\nFor our Data Science course, large language models (LLMs) such as ChatGPT, Copilot, and Claude can be highly effective tools for improving coding and data analysis. Based on my experience from previous courses and reports from other universities, such as Princeton and Brown, I will assume by default that course participants will make extensive use of AI when preparing reports for their Data Science projects.\nHowever, the widespread use of AI also carries a significant risk of over-reliance and reduced cognitive effort. In particular, students may be inclined to accept uncritically the output generated by an LLM without sufficiently questioning, verifying, or understanding it.\nLearning generally requires productive struggle. When AI provides an immediate solution, students may bypass important cognitive processes involved in understanding a problem, developing a solution, and learning from mistakes.\nAI systems can produce confident but incorrect answers, fabricated references, and flawed reasoning. The reports look beautiful. This is particularly problematic when students lack sufficient subject knowledge to recognize errors. Paradoxically, beginners—who could benefit most from AI explanations—may also be least able to evaluate them.\nTherefore the key challenge for the instructor and the student is to design AI use that supports thinking rather than replaces it. For example: Asking AI to explain why your R code produces an error can be educational. Asking AI to write the entire analysis may eliminate much of the learning.\nPerfect AI generated reports will not impress the instructor at all. This is why the weights for the grades of the Data Science report will be low despite the time effort necessary to complete the reports. This why in this course the assessment of a student’s performance is based on:\n\noral examinations\nproject documentation,\n\nwhich requires students to explain and defend their work. Therefore the crucial question for the assessment of a successful participation in this course will be:\nCan the student demonstrate that they understand and can defend what they submitted?\nThe use of outside assistance in the writing process is not necessarily problematic. In the past, dictionaries were used to improve the wording of a text, or Wikipedia was consulted without this being explicitly identified as work not originally produced by the author. The same applies to spell checkers in word processing programs. I also consider the public outcry regarding the use of AI to draft political speeches to be exaggerated. Top politicians have always had speechwriters. Now, human speechwriters are simply being replaced by machine-generated ones. The problem—that the output does not originate from the speaker—remains the same. What is more important in this context, in my view, is that the speaker be held accountable for his or her speech, not the speechwriter or the machine.\nWhat does this little digression have to do with writing reports on data science projects? After all, a student who submits a brilliant data science paper as his own intellectual work but cannot properly explain what is written under his name is simply a cheater.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AI Policy</span>"
+    ]
+  },
+  {
+    "objectID": "ai_policy.html#generative-ai-in-teaching-a-more-general-concern",
+    "href": "ai_policy.html#generative-ai-in-teaching-a-more-general-concern",
+    "title": "4  AI Policy",
+    "section": "Generative AI in teaching: A more general concern",
+    "text": "Generative AI in teaching: A more general concern\nFrom a university instructor’s perspective, the minimum objective of teaching should be that the knowledge and skills acquired in a course remain with students beyond the final examination. Education is not merely about producing correct answers or completing assignments efficiently; it is about developing durable competencies that students can draw upon independently in subsequent courses, in their professional lives, and when confronted with unfamiliar problems. Against this benchmark, the large-scale study by Strömberg et al. (2026) raises serious doubts about whether the use of generative AI in the classroom necessarily helps us achieve this goal.\n\n\n\n\n\n\n\nFigure 4.1: Contraproductivity of AI in the class room. Source: Strömberg et al. (2026)\n\n\n\nThe growing body of empirical evidence and the increasing number of well-documented anecdotes pointing to potential declines in student performance suggest that the educational benefits of AI cannot simply be inferred from its ability to improve the quality or efficiency of students’ immediate outputs. A student who uses AI to produce a polished solution may appear to perform better while acquiring less of the underlying knowledge and fewer of the problem-solving skills that the assignment was intended to develop. This distinction is particularly important in data science and other skill-intensive disciplines, where learning requires students to engage actively with problems, make mistakes, diagnose errors, and develop an understanding of why a particular method works.\n\n\nThere is intense debate among German data scientists, statisticians, and econometricians about what the future of education in the field of data literacy might look like. Berger et al. (2026) provides an overview of this discussion.\n\n\n\n\nBerger, Ursula, Florian Ertz, Thomas Hotz, et al. 2026. “Daten, Künstliche Intelligenz Und Evidenz - Neue Anforderungen an Die Statistikausbildung an Hochschulen.” AStA Wirtschafts- Und Sozialstatistisches Archiv, ahead of print. https://doi.org/10.1007/s11943-025-00363-7.\n\n\nStrömberg, David, Victor Lei, and Yanhui Wu. 2026. “The Generative AI Learning Penalty: Evidence from Chinese Secondary Education.” SSRN Electronic Journal, June. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AI Policy</span>"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "5  Contact Information",
+    "section": "",
+    "text": "Instructor Winfried Pohlmeier\nOffice:  Semi 1.14\nEmail:  Winfried.Pohlmeier@zu.de\nWebsite:  www.winfriedpohlmeier.com\nPhone:  +49 7541 600-91271 (office) +49 162 282 2668 (mobile)\nOpen office policy:  Send me an e-mail to set up an appointment via teams or for a face-to-face meeting before or after the lectures.\n\n\nTutor Jonas Stark\nOffice: FAB — 1.63\nEmail:  Jonas.Stark@zu.de\nPhone:  +49 7541 6009-2262 (office)\nAppointment:  via e-mail",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Contact Information</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Berger, Ursula, Florian Ertz, Thomas Hotz, et al. 2026. “Daten,\nKünstliche Intelligenz Und Evidenz - Neue Anforderungen an Die\nStatistikausbildung an Hochschulen.” AStA Wirtschafts- Und\nSozialstatistisches Archiv, ahead of print. https://doi.org/10.1007/s11943-025-00363-7.\n\n\nJames, G., D. Witten, T. Hastie, and R. Tibshirani. 2021. An\nIntroduction to Statistical Learning: With Applications in r. 2nd\ned. 2021. Springer Texts in Statistics. Springer. https://doi.org/10.1007/978-1-0716-1418-1.\n\n\nProvost, Foster, and Tom Fawcett. 2013. Data Science for Business:\nWhat You Need to Know about Data Mining and Data-Analytic Thinking.\nO’Reilly Media. https://www.researchgate.net/publication/256438799_Data_Science_for_Business.\n\n\nStrömberg, David, Victor Lei, and Yanhui Wu. 2026. “The Generative\nAI Learning Penalty: Evidence from Chinese Secondary Education.”\nSSRN Electronic Journal, June. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garret Grolemund. 2023.\nR for Data Science : Visualize, Model, Transform, Tidy, and Import\nData. 2nd edition. Edited by Mine [VerfasserIn] Çetinkaya-Rundel\nand Garrett [VerfasserIn] Grolemund. https://r4ds.hadley.nz/.\n\n\nZumel, Nina, and John Mount. 2020. Practical Data Science with\nr. 2nd ed. Manning Publications. https://mathematics.foi.hr/Rprojekti/knjige/Practical_dAta_Science_with_R.pdf.\n\n\n\nMore detailed references for each topic will be given in the course.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

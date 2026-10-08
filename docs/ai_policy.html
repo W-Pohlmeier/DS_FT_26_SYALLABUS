@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -165,6 +184,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#zeppelin-unversitys-ai-policy" id="toc-zeppelin-unversitys-ai-policy" class="nav-link active" data-scroll-target="#zeppelin-unversitys-ai-policy">Zeppelin Unversity’s AI Policy</a></li>
   <li><a href="#use-of-ai-for-your-data-science-project" id="toc-use-of-ai-for-your-data-science-project" class="nav-link" data-scroll-target="#use-of-ai-for-your-data-science-project">Use of AI for your Data Science Project</a></li>
+  <li><a href="#generative-ai-in-teaching-a-more-general-concern" id="toc-generative-ai-in-teaching-a-more-general-concern" class="nav-link" data-scroll-target="#generative-ai-in-teaching-a-more-general-concern">Generative AI in teaching: A more general concern</a></li>
   </ul>
 </nav>
     </div>
@@ -213,8 +233,36 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Can the student demonstrate that they understand and can defend what they submitted?</strong></p>
 <p>The use of outside assistance in the writing process is not necessarily problematic. In the past, dictionaries were used to improve the wording of a text, or Wikipedia was consulted without this being explicitly identified as work not originally produced by the author. The same applies to spell checkers in word processing programs. I also consider the public outcry regarding the use of AI to draft political speeches to be exaggerated. Top politicians have always had speechwriters. Now, human speechwriters are simply being replaced by machine-generated ones. The problem—that the output does not originate from the speaker—remains the same. What is more important in this context, in my view, is that the speaker be held accountable for his or her speech, not the speechwriter or the machine.</p>
 <p>What does this little digression have to do with writing reports on data science projects? After all, a student who submits a brilliant data science paper as his own intellectual work but cannot properly explain what is written under his name is simply a cheater.</p>
+<!-- #### Lectures {.unnumbered} -->
+</section>
+<section id="generative-ai-in-teaching-a-more-general-concern" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="generative-ai-in-teaching-a-more-general-concern">Generative AI in teaching: A more general concern</h2>
+<p>From a university instructor’s perspective, the minimum objective of teaching should be that the knowledge and skills acquired in a course remain with students beyond the final examination. Education is not merely about producing correct answers or completing assignments efficiently; it is about developing durable competencies that students can draw upon independently in subsequent courses, in their professional lives, and when confronted with unfamiliar problems. Against this benchmark, the large-scale study by <span class="citation" data-cites="StrombergLeiWu2026_GenAI_LearningPenalty_SSRN">Strömberg et al. (<a href="references.html#ref-StrombergLeiWu2026_GenAI_LearningPenalty_SSRN" role="doc-biblioref">2026</a>)</span> raises serious doubts about whether the use of generative AI in the classroom necessarily helps us achieve this goal.</p>
+<!-- @Stromberg2026GenAILearningPenalty -->
+<div id="fig-AI_TEACHING" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-AI_TEACHING-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="_pics/AI_TEACHING.jpg" style="height:12.5cm" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-AI_TEACHING-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.1: Contraproductivity of AI in the class room. Source: <span class="citation" data-cites="StrombergLeiWu2026_GenAI_LearningPenalty_SSRN">Strömberg et al. (<a href="references.html#ref-StrombergLeiWu2026_GenAI_LearningPenalty_SSRN" role="doc-biblioref">2026</a>)</span>
+</figcaption>
+</figure>
+</div>
+<p>The growing body of empirical evidence and the increasing number of well-documented anecdotes pointing to potential declines in student performance suggest that the educational benefits of AI cannot simply be inferred from its ability to improve the quality or efficiency of students’ immediate outputs. A student who uses AI to produce a polished solution may appear to perform better while acquiring less of the underlying knowledge and fewer of the problem-solving skills that the assignment was intended to develop. This distinction is particularly important in data science and other skill-intensive disciplines, where learning requires students to engage actively with problems, make mistakes, diagnose errors, and develop an understanding of why a particular method works.</p>
+<!-- The central pedagogical concern is therefore not whether AI can help students obtain better answers, but whether it helps them become better learners. If AI systematically substitutes for rather than supports the cognitive effort required to acquire new skills, its use may generate an apparent improvement in short-term performance at the expense of long-term learning. In that case, AI could become counterproductive precisely in those educational settings where the development of independent problem-solving abilities is the primary objective. -->
+<!-- This does not imply that AI has no legitimate role in higher education. On the contrary, AI can be a powerful learning tool when it is used to provide feedback, explain alternative approaches, generate additional exercises, or challenge students to critically evaluate and improve an AI-generated solution. The pedagogical challenge is to design learning environments in which AI complements rather than replaces the student's own cognitive effort. For instructors, this means that the relevant question is not simply how AI can be incorporated into teaching, but under what conditions its use contributes to durable learning rather than merely to better-looking outputs. -->
+<p>There is intense debate among German data scientists, statisticians, and econometricians about what the future of education in the field of data literacy might look like. <span class="citation" data-cites="Berger2026">Berger et al. (<a href="references.html#ref-Berger2026" role="doc-biblioref">2026</a>)</span> provides an overview of this discussion.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-Berger2026" class="csl-entry" role="listitem">
+Berger, Ursula, Florian Ertz, Thomas Hotz, et al. 2026. <span>“Daten, Künstliche Intelligenz Und Evidenz&nbsp;- Neue Anforderungen an Die Statistikausbildung an Hochschulen.”</span> <em>AStA Wirtschafts- Und Sozialstatistisches Archiv</em>, ahead of print. <a href="https://doi.org/10.1007/s11943-025-00363-7">https://doi.org/10.1007/s11943-025-00363-7</a>.
+</div>
+<div id="ref-StrombergLeiWu2026_GenAI_LearningPenalty_SSRN" class="csl-entry" role="listitem">
+Strömberg, David, Victor Lei, and Yanhui Wu. 2026. <span>“The Generative AI Learning Penalty: Evidence from Chinese Secondary Education.”</span> <em>SSRN Electronic Journal</em>, June. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
